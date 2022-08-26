@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Takuya Matsuyama
+            Omar Abul-Hassan
           </Text>
         </LogoBox>
       </a>

@@ -37,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, welcome to my personal website!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Omar Abul-Hassan
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Stanford University</p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/omar.png"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -79,21 +79,14 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
-          </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+          I&apos;m a first-year student at Stanford University studying computer science, mathematics, and physics, with a passion
+          for creating. I am based in both Palo Alto, CA and Virginia Beach, VA. I have a deep passion
+          for planning to developing products/services from start to finish, but also enjoy
+          learning how to use and acquire skills to solve problems. When not online, I love
+          hanging out with my friends and playing chess or pick-up basketball. Currently, I am working on a project called{' '}
+          <NextLink href="https://celebrated-sorbet-0012b2.netlify.app/" passHref scroll={false}>
+            <Link>Hippodrome</Link>
+          </NextLink>.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -109,8 +102,8 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2004</BioYear>
+          Raised in Troy, NY
         </BioSection>
         <BioSection>
           <BioYear>2010</BioYear>
@@ -127,7 +120,7 @@ const Home = () => (
           Working as a freelancer
         </BioSection>
       </Section>
-
+      
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
